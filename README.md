@@ -83,7 +83,24 @@ These analyses help stakeholders make data-driven business decisions.
 ---
 
 ## 🧩 Project Folder Structure  
-<pre> Manufacturing-Production-Analytics/ │ ├── dataset/ │ └── source_crm/ │ ├── cust_info.csv # Customer details data │ ├── prd_info.csv # Product information data │ └── sales_details.csv # Sales transaction records │ ├── scripts/ │ ├── bronze_layer.sql # Raw data ingestion from CSV │ ├── silver_layer.sql # Data cleaning & transformation │ └── gold_layer.sql # Star schema & analytics queries │ ├── tests/ # Test scripts and data quality checks │ ├── quality_checks_silver.sql # Validation for Silver layer (cleaned data) │ └── quality_checks_gold.sql # Validation for Gold layer (analytics-ready data) │ └── README.md # Project documentation </pre>
+Manufacturing-Production-Analytics/
+│
+├── dataset/
+│   └── source_crm/
+│       ├── cust_info.csv              # Customer details data
+│       ├── prd_info.csv               # Product information data
+│       └── sales_details.csv          # Sales transaction records
+│
+├── scripts/
+│   ├── bronze_layer.sql               # Raw data ingestion from CSV
+│   ├── silver_layer.sql               # Data cleaning & transformation
+│   └── gold_layer.sql                 # Star schema & analytics queries
+│
+├── tests/                             # Test scripts and data quality checks
+│   ├── quality_checks_silver.sql      # Validation for Silver layer (cleaned data)
+│   └── quality_checks_gold.sql        # Validation for Gold layer (analytics-ready data)
+│
+└── README.md                          # Project documentation
 
 
 
